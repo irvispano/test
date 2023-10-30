@@ -1,0 +1,24 @@
+.row {
+    border-bottom-color: #d84040;
+    border-bottom: 1px;
+    border-bottom-width: 1px;
+    padding: 0.21em 0;
+    border-bottom: solid 0.5px;
+    border-bottom-color: #f8f8f8;
+    align-items: center;
+}
+
+/* select single rows  */
+
+.row:nth-child(2n-1) {
+    background-color: #f8f8f8;
+}
+
+.row.header {
+        padding: 10px;
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
+        background: black;
+    }
